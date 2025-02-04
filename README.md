@@ -13,7 +13,7 @@ The Dietitian Website is a full-stack web application built using the MERN (Mong
 - **Performance Optimization:** Fast response times through optimized API calls and database queries.
 
 ## Tech Stack
-- **Frontend:** React.js, Tailwind CSS
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (MongoDB Atlas for cloud storage)
 - **AI Integration:** Gemini API for nutritional analysis
