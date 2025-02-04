@@ -1,0 +1,109 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    animation: fadeInLeft 1s ease-in-out;
+    color: #333;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    animation: colorChange 4s linear infinite; /* Animation for color change */
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    padding: 12px 24px;
+    background-color: #ff867c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #ff5252;
+  }
+  
+  .hero-image {
+    flex: 1;
+    padding: 20px;
+    animation: fadeInRight 1s ease-in-out;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hero-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Keyframe animations for fade-in effects */
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Keyframe animation for color-changing text */
+  @keyframes colorChange {
+    0% {
+      color: #ed6f64; /* Initial color */
+    }
+    25% {
+      color: #ed9a9a; /* Color 1 */
+    }
+    50% {
+      color: #a88080; /* Color 2 */
+    }
+    75% {
+      color: #925746; /* Color 3 */
+    }
+    100% {
+      color: #e5a49e; /* Return to initial color */
+    }
+  }
+  

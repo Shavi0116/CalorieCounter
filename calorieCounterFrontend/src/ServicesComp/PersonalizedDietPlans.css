@@ -1,0 +1,95 @@
+/* PersonalizedDietPlans.css */
+.personalized-diet-plans {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.personalized-diet-plans h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.personalized-diet-plans p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.personalized-diet-plans form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.personalized-diet-plans input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.personalized-diet-plans input:focus {
+  border-color: #4caf50;
+}
+
+.personalized-diet-plans button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #b7785e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.personalized-diet-plans button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.personalized-diet-plans button:hover:not(:disabled) {
+  background-color: #c55e39;
+}
+
+.error {
+  margin-top: 15px;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.diet-plan-result {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.diet-plan-result h3 {
+  font-size: 24px;
+  color: #4caf50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.diet-plan-result pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}

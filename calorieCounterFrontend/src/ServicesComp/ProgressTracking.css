@@ -1,0 +1,36 @@
+.progress-tracking {
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-tracking h2 {
+    font-size: 24px;
+    color: #ca8c6c;
+    margin-bottom: 10px;
+  }
+  
+  .progress-tracking button {
+    padding: 10px 15px;
+    background-color: #c55d37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .progress-tracking button:hover {
+    background-color: #e1691f;
+  }
+  
+  .progress-details {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .progress-details p {
+    margin: 5px 0;
+  }
+  

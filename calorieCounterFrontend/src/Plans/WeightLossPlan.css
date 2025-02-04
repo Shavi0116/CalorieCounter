@@ -1,0 +1,68 @@
+.plan-details {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fdfaf6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.plan-title {
+    font-size: 2rem; /* Reduced from 2.5rem */
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.plan-intro {
+    font-size: 1rem; /* Reduced from 1.2rem */
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.recipe-heading {
+    font-size: 1.5rem; /* Reduced from 2rem */
+    color: #e67e22;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.recipe-image {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+.section-title {
+    font-size: 1rem; /* Reduced from 1.2rem */
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+.recipe-list, .recipe-steps {
+    margin: 10px 20px;
+    padding-left: 20px;
+    font-size: 0.9rem; /* Reduced from 1rem */
+    line-height: 1.4; /* Slightly tighter line height */
+}
+
+.recipe-list li {
+    margin: 5px 0;
+    color: #2c3e50;
+}
+
+.recipe-steps li {
+    margin: 10px 0;
+    color: #34495e;
+}
+
+.recipe-steps li::marker {
+    color: #e67e22;
+    font-size: 1rem; /* Reduced from 1.2rem */
+}

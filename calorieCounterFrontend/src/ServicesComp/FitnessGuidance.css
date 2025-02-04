@@ -1,0 +1,98 @@
+/* FitnessGuidance.css */
+.fitness-guidance {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(120deg, #f9fafc, #e8eef7);
+  color: #333;
+}
+
+.fitness-guidance h2 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.fitness-guidance p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.fitness-controls {
+  margin: 20px 0;
+}
+
+.fitness-controls select {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.fitness-controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d66545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.fitness-controls button:hover {
+  background-color: #a4492a;
+}
+
+.tip-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fitness-tip,
+.workout-recommendation,
+.motivational-quote {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #444;
+}
+
+.complete-button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.complete-button:hover {
+  background-color: #2980b9;
+}
+
+.completed-tips {
+  margin-top: 30px;
+}
+
+.completed-tips h3 {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.completed-tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.completed-tips li {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}

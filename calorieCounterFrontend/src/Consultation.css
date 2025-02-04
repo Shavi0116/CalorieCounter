@@ -1,0 +1,71 @@
+.consultation-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .consultation-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .consultation-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .consultation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .consultation-form input,
+  .consultation-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .consultation-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .consultation-button {
+    background-color: #c96848;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .consultation-button:hover {
+    background-color: #cb3f10;
+  }
+  
+  .consultation-contact {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+  }
+  
+  .consultation-contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .consultation-contact p {
+    margin: 5px 0;
+  }
+  

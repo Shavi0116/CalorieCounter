@@ -1,0 +1,102 @@
+/* Container Styling */
+.services-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffffff, #ffffff); /* Soft peach and cream gradient */
+}
+
+/* Sidebar Styling */
+.services-sidebar {
+  width: 25%;
+  background-color: #e5bdb8; /* Vibrant coral */
+  color: #ffffff; /* Clean white text */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar-item {
+  font-size: 18px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #f18671; /* Lighter coral */
+  transform: translateX(10px);
+}
+
+.sidebar-item.active {
+  background-color: #ae645c; /* Deep coral */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+/* Content Section */
+.services-content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.content-header {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff6f61; /* Matches the sidebar coral color */
+}
+
+.content-body {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  animation: fadeInContent 0.5s ease;
+}
+
+@keyframes fadeInContent {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Background Effects */
+.content-section {
+  position: relative;
+  padding: 30px;
+  background: #ffffff; /* Clean white background */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ffe5d9, #ffecd2); /* Subtle pastel tones */
+  border-radius: 15px;
+  z-index: -1;
+  filter: blur(20px);
+  opacity: 0.3;
+}

@@ -1,0 +1,120 @@
+.about-us {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #fffbf7, #ffe6e0); /* Soft warm tones */
+  padding: 50px 20px;
+  color: #333;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-header h1 {
+  font-size: 40px;
+  color: #d35400; /* Bold orange tone */
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #8e8e8e; /* Soft gray */
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.about-content .about-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-content .about-text {
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  color: #2980b9; /* Calm blue */
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #555; /* Neutral text tone */
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.about-mission {
+  text-align: center;
+  background: #fff; /* Clean white background */
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.about-mission h2 {
+  font-size: 32px;
+  color: #e67e22; /* Muted teal */
+  margin-bottom: 20px;
+}
+
+.about-mission p {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-specialties {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #ffffff, #ffffff); /* Soft pastel gradient */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-specialties h2 {
+  font-size: 32px;
+  color: #e67e22; /* Vibrant orange */
+  margin-bottom: 30px;
+}
+
+.about-specialties ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.about-specialties li {
+  background: #ffffff; /* Clean white */
+  padding: 15px 25px;
+  font-size: 16px;
+  color: #34495e; /* Deep slate blue */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-specialties li:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background: #ffe6e0; /* Slight color shift on hover */
+}
