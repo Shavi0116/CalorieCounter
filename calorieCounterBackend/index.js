@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const app = express();
 const port = 3081;
 
-const genAI = new GoogleGenerativeAI("AIzaSyDowjVQkgTe4-3j06jm3SxhT8FsSemmzGE"); 
+const genAI = new GoogleGenerativeAI("API KEY"); 
 
 app.use(cors());
 app.use(express.json());
