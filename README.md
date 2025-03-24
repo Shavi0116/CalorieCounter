@@ -5,7 +5,6 @@ The Dietitian Website is a full-stack web application built using the MERN (Mong
 
 ## Features
 - **AI-Powered Chatbot:** Uses the Gemini API to provide real-time calorie counts, nutritional benefits, and potential drawbacks of food items.
-- **Food Tracking:** Users can log their daily meals and track nutritional intake.
 - **Responsive UI:** Built with React for a seamless and dynamic user experience.
 - **Personal Diet Plan:** Built a bot using Gemini API which generates Diet plan based on user's age, weight and what his goal is.
 - **Scalable Backend:** Efficient API design using Express.js and MongoDB for data management.
@@ -16,8 +15,7 @@ The Dietitian Website is a full-stack web application built using the MERN (Mong
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (MongoDB Atlas for cloud storage)
 - **AI Integration:** Gemini API for nutritional analysis
-- **Authentication:** JSON Web Tokens (JWT)
-
+  
 ## Installation
 ### Prerequisites
 - Node.js installed
@@ -55,10 +53,8 @@ The Dietitian Website is a full-stack web application built using the MERN (Mong
    ```
 
 ## Usage
-- Register and log in to your account.
 - Use the chatbot to get nutritional insights.
-- Track your daily meals and calorie intake.
-- Connect with professional dietitians for personalized advice.
+- Track your calorie intake.
 
 ## Future Enhancements
 - **Meal Planning:** AI-generated meal plans based on user preferences.
